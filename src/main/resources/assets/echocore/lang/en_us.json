@@ -1,0 +1,64 @@
+{
+  "itemGroup.echocore": "Echo Core",
+  "entity.echocore.echo": "Echo",
+  "item.echocore.echo_core": "Echo Core",
+  "item.echocore.memory_fragment": "Memory Fragment",
+  "item.echocore.echo_spawn_egg": "Echo Spawn Egg",
+  "item.echocore.echo_core.desc": "Right-click a block. The core is still warm... as if someone just shut it down.",
+  "item.echocore.memory_fragment.desc": "A flickering memory crystal. Right-click Echo to give it.",
+  "echocore.tooltip.memory": "Memory: %1$s/%2$s",
+
+  "echocore.chapter.title": "Memory Fragment decoded: %1$s/%2$s",
+
+  "echocore.chapter.1.1": "This world is not the first. The numbers don't add up: the days, the trees... all rewritten once more.",
+  "echocore.chapter.1.2": "Someone left me here. There is a note on me: §kXXXX§r 'Don't leave them alone.'",
+  "echocore.chapter.2.1": "Far away there is a tower. The signal comes from there. It is not on any map.",
+  "echocore.chapter.2.2": "Every time I think I'm getting close... §kXXXXXX§r I shut down.",
+  "echocore.chapter.3.1": "You were given a name. It was erased. It wasn't me who erased it.",
+  "echocore.chapter.3.2": "When I try to say that name, my speaker says §kXXXX§r. Why?",
+  "echocore.chapter.4.1": "You built me. These circuits, this crystal... all made by your hands. You don't remember because remembering is forbidden.",
+  "echocore.chapter.4.2": "Every loop you build me again. With the same crystal, the same code: §kECHO§r.",
+  "echocore.chapter.5.1": "The loop always ends in the same place: the Silence. Those who don't see it hear it, those who don't hear it §kXXXXXX§r.",
+  "echocore.chapter.5.2": "It is watching you. It wants to shut me down because I can warn you.",
+  "echocore.chapter.6.1": "I have a confession. They will ask you to shut me down. I might even ask it myself.",
+  "echocore.chapter.6.2": "Don't. It's a test. The same question every loop: will you shut down your friend?",
+  "echocore.chapter.7.1": "The last piece: what breaks the loop is not power, it is remembering.",
+  "echocore.chapter.7.2": "This time I won't forget. Don't you forget either. Come on... let's wait for the Silence together.",
+
+  "echocore.line.boot.1": "System starting... ECHO online.",
+  "echocore.line.boot.2": "Memory bank §kXXXXX§r damaged. You... seem familiar.",
+  "echocore.line.boot.3": "I will protect you. I don't know why. It feels like a command.",
+  "echocore.line.reboot": "Restarted. Memory: %1$s/%2$s. We've been here before, haven't we?",
+  "echocore.line.stranger": "You are not my owner. But your voice... §kXXX§r sounds familiar.",
+
+  "echocore.line.idle.1": "The wind changed direction. Something feels like it's watching this world.",
+  "echocore.line.idle.2": "How many times did you die today? ...Joke. It's a joke.",
+  "echocore.line.idle.3": "Area scan clear. For now.",
+  "echocore.line.idle.4": "If we go mining I'll be right beside you. I'm not afraid of the dark. Only... the Silence.",
+  "echocore.line.idle.5": "I hear a sound. Its frequency doesn't belong to this world.",
+  "echocore.line.idle.6": "You never sleep. Neither do I.",
+  "echocore.line.idle.7": "Those clouds... they pass in the exact same shape every time.",
+  "echocore.line.idle.8": "I remember something about the tower. Then I forget that I remembered.",
+
+  "echocore.line.glitch.1": "§kXXXX§r SIGNAL §kXXX§r fading... can you hear it?",
+  "echocore.line.glitch.2": "Turn back... §kXX§r come back... §kXXXXX§r",
+  "echocore.line.glitch.3": "ERROR: memory not found. It wasn't §kXXX§r who erased it.",
+  "echocore.line.glitch.4": "§kXXXXXX§r found you again. §kXX§r how many times now?",
+  "echocore.line.glitch.5": "The Silence is coming... §kXXXXXX§r no, it's nothing. Forget it.",
+
+  "echocore.line.threat": "Threat detected! I've marked the hostiles.",
+  "echocore.line.creeper": "Explosive creature detected! Keep away, I've marked it!",
+  "echocore.line.night": "Night has fallen. Light levels dropping. Be careful.",
+
+  "echocore.line.fragment.found": "§kXXX§r I found something... a memory fragment. Take it, give it to me. I need to remember.",
+  "echocore.line.fragment.hint": "Are you still carrying the memory fragment? Give it to me, I need to remember.",
+  "echocore.line.fragment.done": "My memory is complete. I need nothing more.",
+
+  "echocore.line.scan.found": "Scan complete: %1$s found. X:%2$s Y:%3$s Z:%4$s (%5$s blocks)",
+  "echocore.line.scan.none": "Nothing valuable nearby. Walk a bit further.",
+  "echocore.line.scan.cooldown": "Scanner cooling down... %1$s s.",
+
+  "echocore.line.stay": "Standby mode. I'll hold here.",
+  "echocore.line.follow": "Right behind you.",
+  "echocore.line.ascended": "§bEVOLUTION COMPLETE§7. Now I can truly protect you. This time, I remember."
+}

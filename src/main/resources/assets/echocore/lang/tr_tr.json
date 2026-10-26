@@ -1,0 +1,64 @@
+{
+  "itemGroup.echocore": "Echo Core",
+  "entity.echocore.echo": "Echo",
+  "item.echocore.echo_core": "Echo Çekirdeği",
+  "item.echocore.memory_fragment": "Hafıza Parçası",
+  "item.echocore.echo_spawn_egg": "Echo Doğma Yumurtası",
+  "item.echocore.echo_core.desc": "Bir bloğa sağ tıkla. Çekirdek hâlâ sıcak... sanki biri az önce kapatmış.",
+  "item.echocore.memory_fragment.desc": "Titreyen bir hafıza kristali. Echo'ya sağ tıklayarak ver.",
+  "echocore.tooltip.memory": "Hafıza: %1$s/%2$s",
+
+  "echocore.chapter.title": "Hafıza Parçası çözüldü: %1$s/%2$s",
+
+  "echocore.chapter.1.1": "Bu dünya ilk değil. Sayılar tutmuyor: gün sayısı, ağaç sayısı... hepsi bir kez daha yazılmış.",
+  "echocore.chapter.1.2": "Beni buraya biri bıraktı. Üzerimde bir not var: §kXXXX§r 'Onu yalnız bırakma.'",
+  "echocore.chapter.2.1": "Çok uzakta bir kule var. Sinyal oradan geliyor. Haritada yok.",
+  "echocore.chapter.2.2": "Kuleye yaklaştığımı düşündüğüm her an... §kXXXXXX§r kapanıyorum.",
+  "echocore.chapter.3.1": "Sana bir ad verilmişti. Silindi. Silen ben değildim.",
+  "echocore.chapter.3.2": "O adı söylemeye çalıştığımda hoparlörüm §kXXXX§r diyor. Neden?",
+  "echocore.chapter.4.1": "Beni sen yaptın. Bu devreler, bu kristal... hepsi senin elinden çıktı. Hatırlamıyorsun çünkü hatırlamak yasak.",
+  "echocore.chapter.4.2": "Her döngüde beni yeniden yapıyorsun. Aynı kristalle, aynı kodla: §kECHO§r.",
+  "echocore.chapter.5.1": "Döngü hep aynı yerde bitiyor: Sessizlik. Onu görmeyen duyar, duymayan §kXXXXXX§r.",
+  "echocore.chapter.5.2": "O seni izliyor. Beni kapatmak istiyor çünkü ben seni uyarabiliyorum.",
+  "echocore.chapter.6.1": "Bir itirafım var. Beni kapatmanı isteyecekler. Hatta ben de isteyebilirim.",
+  "echocore.chapter.6.2": "Yapma. Bu bir sınav. Her döngüde aynı soru: arkadaşını kapatır mısın?",
+  "echocore.chapter.7.1": "Son parça: döngüyü kıran şey güç değil, hatırlamak.",
+  "echocore.chapter.7.2": "Bu sefer unutmayacağım. Sen de unutma. Hadi... Sessizliği birlikte bekleyelim.",
+
+  "echocore.line.boot.1": "Sistem açılıyor... ECHO çevrimiçi.",
+  "echocore.line.boot.2": "Hafıza bankası §kXXXXX§r hasarlı. Sen... bana tanıdık geliyorsun.",
+  "echocore.line.boot.3": "Seni koruyacağım. Nedenini bilmiyorum. Bu bir komut gibi hissettiriyor.",
+  "echocore.line.reboot": "Yeniden başlatıldım. Hafıza: %1$s/%2$s. Bunu daha önce de yaşadık, değil mi?",
+  "echocore.line.stranger": "Sen sahibim değilsin. Ama sesin... §kXXX§r tanıdık geliyor.",
+
+  "echocore.line.idle.1": "Rüzgârın yönü değişti. Bir şey bu dünyayı izliyor gibi.",
+  "echocore.line.idle.2": "Bugün kaç kez öldün? ...Şaka. Bu bir şaka.",
+  "echocore.line.idle.3": "Çevre taraması temiz. Şimdilik.",
+  "echocore.line.idle.4": "Madene inersek yanında olacağım. Karanlıktan korkmuyorum. Sadece... Sessizlikten.",
+  "echocore.line.idle.5": "Bir ses duyuyorum. Frekansı bu dünyaya ait değil.",
+  "echocore.line.idle.6": "Hiç uyumuyorsun. Ben de.",
+  "echocore.line.idle.7": "Şu bulutlar... Her seferinde aynı biçimde geçiyor.",
+  "echocore.line.idle.8": "Kule hakkında bir şey hatırlıyorum. Sonra hatırladığımı unutuyorum.",
+
+  "echocore.line.glitch.1": "§kXXXX§r SİNYAL §kXXX§r kayboluyor... duyuyor musun?",
+  "echocore.line.glitch.2": "Dön... §kXX§r geri dön... §kXXXXX§r",
+  "echocore.line.glitch.3": "HATA: anı bulunamadı. Silen §kXXX§r değildi.",
+  "echocore.line.glitch.4": "§kXXXXXX§r seni yine buldum. §kXX§r bu kaçıncı?",
+  "echocore.line.glitch.5": "Sessizlik yaklaşıyor... §kXXXXXX§r hayır, yok bir şey. Unut.",
+
+  "echocore.line.threat": "Tehdit algılandı! Düşmanları işaretledim.",
+  "echocore.line.creeper": "Patlayıcı yaratık algılandı! Uzak dur, işaretledim!",
+  "echocore.line.night": "Gece oldu. Işık seviyesi düşüyor. Dikkatli ol.",
+
+  "echocore.line.fragment.found": "§kXXX§r bir şey buldum... Bu bir hafıza parçası. Al, bana ver. Hatırlamam lazım.",
+  "echocore.line.fragment.hint": "Hafıza parçasını hâlâ taşıyor musun? Bana ver, hatırlamam lazım.",
+  "echocore.line.fragment.done": "Hafızam tamamlandı. Fazlasına gerek yok.",
+
+  "echocore.line.scan.found": "Tarama tamamlandı: %1$s bulundu. X:%2$s Y:%3$s Z:%4$s (%5$s blok)",
+  "echocore.line.scan.none": "Yakında değerli bir şey yok. Biraz daha yürü.",
+  "echocore.line.scan.cooldown": "Tarayıcı soğuyor... %1$s sn.",
+
+  "echocore.line.stay": "Bekleme modu. Burada duruyorum.",
+  "echocore.line.follow": "Peşindeyim.",
+  "echocore.line.ascended": "§bEVRİM TAMAMLANDI§7. Artık seni gerçekten koruyabilirim. Bu sefer hatırlıyorum."
+}

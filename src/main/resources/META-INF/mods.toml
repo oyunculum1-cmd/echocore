@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="echocore"
+version="1.0.0"
+displayName="Echo Core"
+description='''
+ECHO: ucan, zeki bir yapay zeka yoldasi. Seni korur, tehditleri isaretler, maden tarar.
+Ama kendi gecmisi hakkinda hicbir sey hatirlamiyor... ve bir sey ona seni hatirlatiyor.
+'''
+
+[[dependencies.echocore]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.echocore]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"

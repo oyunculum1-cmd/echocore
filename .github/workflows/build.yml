@@ -1,0 +1,65 @@
+name: Build
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+
+      - uses: gradle/actions/setup-gradle@v3
+        with:
+          gradle-version: 8.1.1
+
+      - name: Build
+        run: gradle build --no-daemon
+
+      - name: Server smoke test (modu gercek Forge ile yukler)
+        run: |
+          mkdir -p run/logs
+          echo "eula=true" > run/eula.txt
+          gradle runServer --no-daemon > run/gradle-server.log 2>&1 &
+          PID=$!
+          for i in $(seq 1 100); do
+            sleep 5
+            if grep -q 'Done (' run/logs/latest.log 2>/dev/null; then break; fi
+            if ! kill -0 $PID 2>/dev/null; then break; fi
+          done
+          echo "================ SERVER LOG (son 120 satir) ================"
+          tail -n 120 run/logs/latest.log 2>/dev/null || tail -n 120 run/gradle-server.log
+          if grep -q 'Done (' run/logs/latest.log 2>/dev/null; then
+            echo "SMOKE TEST: BASARILI - mod sunucuda sorunsuz yuklendi"
+            pkill -f java || true
+            exit 0
+          else
+            echo "SMOKE TEST: BASARISIZ - hata satirlari:"
+            grep -n -E "Exception|Caused by|ERROR|Error" run/logs/latest.log run/gradle-server.log 2>/dev/null | head -60
+            pkill -f java || true
+            exit 1
+          fi
+
+      - name: Upload jar
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: echocore-jar
+          path: build/libs/*.jar
+
+      - name: Upload logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: server-logs
+          path: |
+            run/logs
+            run/crash-reports
+            run/gradle-server.log
+          if-no-files-found: ignore
